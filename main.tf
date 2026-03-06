@@ -5,7 +5,7 @@ resource "aws_instance" "devops_server" {
   key_name      = "devops-key"
 
   tags = {
-    Name = "DevOps-Terraform-Server"
+    Name = "DevOps-Terraform-Server-Test"
   }
 
 }
