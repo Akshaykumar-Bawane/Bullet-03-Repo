@@ -1,0 +1,17 @@
+# Terraform cache
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform lock
+.terraform.lock.hcl
+
+# Private keys
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
